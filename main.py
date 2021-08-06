@@ -101,7 +101,7 @@ class Main:
 
 
 if __name__ == '__main__':
-    os.system('cls && title tiktok viewbot | Main Menu')
+    os.system('clear && title tiktok viewbot | Main Menu')
     main = Main(
         input(f'{Fore.WHITE}[{Fore.YELLOW}>>{Fore.WHITE}] TikTok Video URL{Fore.YELLOW}: {Fore.WHITE}'),
         int(input(f'{Fore.WHITE}[{Fore.YELLOW}>>{Fore.WHITE}] Views{Fore.YELLOW}: {Fore.WHITE}')),
